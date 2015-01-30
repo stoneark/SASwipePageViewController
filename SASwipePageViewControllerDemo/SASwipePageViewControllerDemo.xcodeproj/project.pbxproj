@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED542001A7A2E750069BB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED541FF1A7A2E750069BB63 /* main.m */; };
+		8ED542031A7A2E750069BB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED542021A7A2E750069BB63 /* AppDelegate.m */; };
+		8ED542061A7A2E750069BB63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED542051A7A2E750069BB63 /* ViewController.m */; };
+		8ED5420B1A7A2E750069BB63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED5420A1A7A2E750069BB63 /* Images.xcassets */; };
+		8ED542281A7A2EA40069BB63 /* SASwipePageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED542251A7A2EA40069BB63 /* SASwipePageHandler.m */; };
+		8ED542291A7A2EA40069BB63 /* SASwipePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED542271A7A2EA40069BB63 /* SASwipePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ED541FA1A7A2E750069BB63 /* SASwipePageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SASwipePageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED541FE1A7A2E750069BB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED541FF1A7A2E750069BB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED542011A7A2E750069BB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ED542021A7A2E750069BB63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ED542041A7A2E750069BB63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ED542051A7A2E750069BB63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ED5420A1A7A2E750069BB63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8ED542241A7A2EA40069BB63 /* SASwipePageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASwipePageHandler.h; sourceTree = "<group>"; };
+		8ED542251A7A2EA40069BB63 /* SASwipePageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASwipePageHandler.m; sourceTree = "<group>"; };
+		8ED542261A7A2EA40069BB63 /* SASwipePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASwipePageViewController.h; sourceTree = "<group>"; };
+		8ED542271A7A2EA40069BB63 /* SASwipePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASwipePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED541F71A7A2E750069BB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED541F11A7A2E750069BB63 = {
+			isa = PBXGroup;
+			children = (
+				8ED541FC1A7A2E750069BB63 /* SASwipePageViewControllerDemo */,
+				8ED541FB1A7A2E750069BB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED541FB1A7A2E750069BB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED541FA1A7A2E750069BB63 /* SASwipePageViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED541FC1A7A2E750069BB63 /* SASwipePageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8ED542231A7A2EA40069BB63 /* SASwipePageViewController */,
+				8ED542011A7A2E750069BB63 /* AppDelegate.h */,
+				8ED542021A7A2E750069BB63 /* AppDelegate.m */,
+				8ED542041A7A2E750069BB63 /* ViewController.h */,
+				8ED542051A7A2E750069BB63 /* ViewController.m */,
+				8ED5420A1A7A2E750069BB63 /* Images.xcassets */,
+				8ED541FD1A7A2E750069BB63 /* Supporting Files */,
+			);
+			path = SASwipePageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		8ED541FD1A7A2E750069BB63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED541FE1A7A2E750069BB63 /* Info.plist */,
+				8ED541FF1A7A2E750069BB63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED542231A7A2EA40069BB63 /* SASwipePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8ED542241A7A2EA40069BB63 /* SASwipePageHandler.h */,
+				8ED542251A7A2EA40069BB63 /* SASwipePageHandler.m */,
+				8ED542261A7A2EA40069BB63 /* SASwipePageViewController.h */,
+				8ED542271A7A2EA40069BB63 /* SASwipePageViewController.m */,
+			);
+			name = SASwipePageViewController;
+			path = ../../SASwipePageViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED541F91A7A2E750069BB63 /* SASwipePageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED5421D1A7A2E750069BB63 /* Build configuration list for PBXNativeTarget "SASwipePageViewControllerDemo" */;
+			buildPhases = (
+				8ED541F61A7A2E750069BB63 /* Sources */,
+				8ED541F71A7A2E750069BB63 /* Frameworks */,
+				8ED541F81A7A2E750069BB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASwipePageViewControllerDemo;
+			productName = SASwipePageViewControllerDemo;
+			productReference = 8ED541FA1A7A2E750069BB63 /* SASwipePageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED541F21A7A2E750069BB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = StoneArk;
+				TargetAttributes = {
+					8ED541F91A7A2E750069BB63 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8ED541F51A7A2E750069BB63 /* Build configuration list for PBXProject "SASwipePageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED541F11A7A2E750069BB63;
+			productRefGroup = 8ED541FB1A7A2E750069BB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED541F91A7A2E750069BB63 /* SASwipePageViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED541F81A7A2E750069BB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED5420B1A7A2E750069BB63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED541F61A7A2E750069BB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED542061A7A2E750069BB63 /* ViewController.m in Sources */,
+				8ED542031A7A2E750069BB63 /* AppDelegate.m in Sources */,
+				8ED542281A7A2EA40069BB63 /* SASwipePageHandler.m in Sources */,
+				8ED542291A7A2EA40069BB63 /* SASwipePageViewController.m in Sources */,
+				8ED542001A7A2E750069BB63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8ED5421B1A7A2E750069BB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ED5421C1A7A2E750069BB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED5421E1A7A2E750069BB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SASwipePageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ED5421F1A7A2E750069BB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SASwipePageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED541F51A7A2E750069BB63 /* Build configuration list for PBXProject "SASwipePageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5421B1A7A2E750069BB63 /* Debug */,
+				8ED5421C1A7A2E750069BB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED5421D1A7A2E750069BB63 /* Build configuration list for PBXNativeTarget "SASwipePageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED5421E1A7A2E750069BB63 /* Debug */,
+				8ED5421F1A7A2E750069BB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED541F21A7A2E750069BB63 /* Project object */;
+}
